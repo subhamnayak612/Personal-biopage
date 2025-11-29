@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-container{
+    background-color: black;
+    height: 1cm;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5cm;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+    padding: 10px;
+}
+a:hover{
+    background-color: rgb(140, 15, 15);
+    border-radius: 5px;
+    transition: 0.3s;
+    text-decoration: underline;
+
+}
+
+
+.hero-content{
+    background-color: rgb(158, 11, 11);
+    height: 16cm;
+    text-align: center;
+}
+.profile-img{
+     border-radius: 50%;
+    height:8cm;
+    width: 8cm;
+   align-items: center;  
+   margin-top: 1cm; 
+}
+.h{
+    color:rgb(160, 193, 28);
+    margin-top: 0.5cm;
+}
+.about{
+    
+    background-color: blue;
+    height: 16cm;
+    text-align: center;
+
+}
+a1{
+    color: violet;
+    height: fit-content;
+}
+
